@@ -1,0 +1,170 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+    .header-back{
+
+
+        .menu{
+
+            display: none;
+           ul{
+
+
+            li{
+
+
+            }
+           }
+
+  
+        }
+
+        .button{
+            display: none;
+                       }
+    }
+
+
+
+
+    .slide-image{
+
+        .slide-text{
+            text-align: center;
+            width: 90%;
+
+
+            h1{
+                font-size: 25px;
+            }
+
+            p{
+                font-size: 18px;
+                width: 100%;
+                text-align: center;
+                line-height: 30px;
+                
+            }
+        }
+    }
+
+
+
+
+
+    .company-image{
+
+
+        .company-flex{
+            display: flex;
+            flex-direction: column;
+
+
+
+            img{
+
+            }
+
+            .company-text{
+                margin: 40px 0px;
+                width: 100%;
+
+
+                 h2{
+font-size: 25px;
+                }
+
+                p{
+                    line-height: 30px;
+                }
+                .right-flex{
+
+                    .right-icon{
+                        img{
+
+                        }
+                    }
+
+                    .right-text{
+
+                        span{
+                            font-size: 16px;
+                        }
+                    }
+                
+                }
+
+
+
+
+                .johan-image{
+                    display: flex;
+                     flex-direction: column;
+                 
+                 
+                         img{
+                 
+                 
+                         }
+                 
+                         .about-button{
+                             margin: 40px 0px;
+                             margin-left: 0px;
+                            
+                         }
+                 .johan-text{
+                 
+                 
+                     h4{
+                 
+                 
+                     }
+                 
+                     span{
+                 
+                     }
+                  
+                 }
+                 
+                       
+                     }
+            }
+
+           
+
+        }
+    }
+
+
+
+    
+
+    .ourlay-two {
+
+
+
+
+        .ourlay-text{
+            
+        }
+    }
+   
+}
+
+
+
+
+ 
+
+   
+ 

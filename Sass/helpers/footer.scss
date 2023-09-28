@@ -1,0 +1,224 @@
+.foter-back{
+  
+    background-color: var(--brand-black);
+    padding: 50px 0px;
+    margin-top: 100px;
+
+    .fot{
+display: flex;
+justify-content: space-between;
+
+padding: 100px 0px;
+   
+    .foter{
+        width: 30%;
+
+        :first-child{
+            padding-left: 0px;
+        }
+p{
+    font-size: 17px;
+    color: var(--white);
+    width: 100%;
+    padding: 30px 0px;
+    line-height: 25px;
+}
+
+        .logo{
+
+            img{
+
+            }
+        }
+
+        .facebook{
+            padding: 5px 10px;
+            background-color: var(--brand-primary);
+            display: inline-block;
+            border-radius: 5px;
+            margin-left: 8px;
+            cursor: pointer;
+
+          
+            img{
+                width: 20px;
+            }
+        }
+
+    }
+
+        .useful-text{
+           
+            width: 30%;
+            .useful{
+
+
+                h2{
+padding-bottom: 18px;
+color: var(--white);
+
+
+                }
+            }
+
+            .help-text{
+                ul{
+
+                    li{
+                        padding-bottom: 5px;
+                        a{
+                            font-size: 18px;
+                            color: var(--white);
+                            line-height: 35px;
+                            margin: 15px 0px;
+                            &:hover{
+                                color: var(--brand-primary);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+   
+
+         
+  
+
+
+        .contact{
+width: 40%;
+
+            .contact-text{
+
+                h2{
+                    color: var(--white);
+                    padding: 0px 0px 15px;
+                }
+            }
+
+.icons{
+display: flex;
+
+
+            .themex{
+                ul{
+                    li{
+                        padding-bottom: 5px;
+                        img{
+width: 15px;
+                        }
+                        padding: 19px 0px;
+
+                        :first-child{
+                            padding: 0px;
+                        }
+                    }
+ 
+                }
+            }
+
+
+            .theme{
+                width: 100%;
+            ol{
+                padding-top: 8px;
+                padding-left: 10px;
+                li{
+                   padding-bottom: 22px;
+                   a{
+                    font-size: 18px;
+                    color: var(--white);
+                    line-height: 35px;
+                    margin: 15px 0px;
+                   }
+                }
+            }
+            }
+        }
+        }
+
+
+
+
+
+        .recent {
+
+width: 25%;
+            .recent-text {
+
+
+                h2{
+                    color: var(--white);
+                    padding-bottom: 30px;
+                }
+            }
+
+
+            .charse{
+display: flex;
+justify-content: center;
+line-height: 25px;
+padding-bottom: 10px;
+
+                .know-image{
+
+
+                    img{
+
+
+
+                    }
+                }
+
+
+                .know-test{
+
+                    width: 100%;
+                    p{
+                        font-size: 17px;
+                        color: var(--white);
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }   
+    }
+
+    .foter-boder{
+        border: 1px solid var(  --boder-fot);
+        width: 90%;
+        align-items: center;
+        margin: 0px 80px;
+    }
+
+    .pricing-flex{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+        .reserved{
+            p{
+    font-size: 18px;
+    color: var(--white);
+            }
+        }
+    
+        .pricing{
+            ul{
+                display: flex;
+                li{
+                    padding: 0px 15px;
+
+                    a{
+                        font-size: 18px;
+                        color: var(--white);
+
+                        &:hover{
+                            color: var(--brand-primary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
